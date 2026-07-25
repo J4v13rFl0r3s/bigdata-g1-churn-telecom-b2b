@@ -1,0 +1,36 @@
+# ============================================================
+# Requerimientos del pipeline de datos y Machine Learning
+# Proyecto: Predicción de Churn B2B en Telecomunicaciones
+# Big Data (DD283) - Universidad Autónoma del Perú
+# ============================================================
+# Instalación:  pip install -r requirements.txt
+# Python recomendado: 3.10 o superior
+# ------------------------------------------------------------
+
+# Procesamiento distribuido y modelado
+pyspark==3.5.0
+
+# Manipulación y análisis de datos
+pandas==2.2.2
+numpy==1.26.4
+
+# Machine Learning (modelos de referencia y métricas)
+scikit-learn==1.4.2
+
+# Visualización (EDA)
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Lectura/escritura de formatos
+pyarrow==15.0.2          # soporte Parquet
+openpyxl==3.1.2          # lectura de catálogos .xlsx
+
+# Persistencia de predicciones
+pymongo==4.14.1
+
+# Notebooks
+jupyter==1.0.0
+ipykernel==6.29.4
+
+# Variables de entorno
+python-dotenv==1.1.1
